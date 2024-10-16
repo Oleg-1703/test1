@@ -9,6 +9,7 @@
 
 ## Задача
 
+
 Написать SQL запрос, который выведет имена студентов, друзья которых получили бОльшую зарплату, чем они. Имена должны быть отсортированы в порядке убывания зарплаты, предлагаемой их друзьям.
 
 ## РЕШЕНИЕ
@@ -58,7 +59,7 @@ JOIN Packages p ON s.ID = p.ID
 JOIN Friends f ON s.ID = f.ID
 JOIN Packages p2 ON f.Friend_ID = p2.ID
 ORDER BY p2.Salary DESC;
-
+```
 ## Результаты выполнения запроса
 
-![Результат](Result.png)
+![Результат](C:\Users\79504\Desktop\Projects\Test\Result.png)
