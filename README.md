@@ -62,4 +62,4 @@ ORDER BY p2.Salary DESC;
 ```
 ## Результаты выполнения запроса
 
-![Результат](C:\Users\79504\Desktop\Projects\Test\Result.png)
+![Результат](Result.png)
